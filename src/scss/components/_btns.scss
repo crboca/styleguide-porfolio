@@ -1,0 +1,116 @@
+
+.cuadrados{
+	width: 100%;
+}
+
+.cuadrado-uno{
+	height: 50px;
+	width: 350px;
+	background-color: $rosa-palo;
+	display: block;
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.cuadrado-dos{
+	height: 50px;
+	width: 350px;
+	background-color: $beige;
+	display: block;
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.cuadrado-tres{
+	height: 50px;
+	width: 350px;
+	background-color: $marron;
+	display: block;
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 1;
+	border: 1px solid $beige;
+	color: $beige;
+}
+
+.cuadrado-cuatro{
+	height: 50px;
+	width: 350px;
+	background-color: $negro;
+	display: block;
+	text-align: center;
+	padding: 5px;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.cuadrados h6{
+	color: #000;
+	margin-top: 15px;
+}
+
+.botones {
+	width: 100%;
+    background-color: $marron;
+}
+
+.small{
+	background-color: $rosa-palo;
+	display: block;
+	width: 137px;
+	height: 40px;
+	padding: 0;
+	border:none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	color: $marron;
+	font-size: 16px;
+	margin-bottom: 23px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.big{
+	background-color: $rosa-palo;
+	width: 213px;
+	height: 60px;
+	display: block;
+	border:none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	color: $marron;
+	font-size: 24px;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+	padding: 0;
+}
+
+.small:hover, .big:hover {
+	background-color: $marron; 
+	color: $rosa-palo;
+	cursor: pointer;
+	border: 1px solid $rosa-palo;
+}
+
+
+

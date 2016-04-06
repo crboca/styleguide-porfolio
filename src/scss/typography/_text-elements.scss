@@ -1,0 +1,43 @@
+ul, li{
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+	color: $rosa-palo;
+	line-height: 23px;
+}
+
+p, section{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	color: $rosa-palo;
+}
+
+a{
+	color: $beige;
+}
+
+mark{
+	background-color: $beige;
+	color: $rosa-palo;
+}
+
+blockquote{
+	font-size: 18px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-weight: 300;
+}
+
+.cabecera{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: $beige;
+	border-bottom-style: solid;
+	border-bottom-color: $beige;
+	margin-top: -100px;
+	padding-top: 210px;
+	
+}
